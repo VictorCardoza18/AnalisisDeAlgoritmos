@@ -92,7 +92,6 @@ int main()
     clock_t fin = clock();
     tiempoTranscurrido = (double)(fin - inicio) / CLOCKS_PER_SEC;
     printf("Tiempo transcurrido: %f segundos\n\n", tiempoTranscurrido);
-    getchar(); // QUITAR AL FINALIZAR ---------------------------------------------
 
     // 2) Funcion para imprimir el arreglo
     printf("Impresion de arreglo:\n");
